@@ -43,7 +43,7 @@ python manage.py runserver
 
 - **admin/** - Django administration panel.(username and password both is admin)
 - **task-list/** - Get a list of all employees.
-- **task-listid/<str:pk>/** - Get a list of employees by there unique id
+- **task-listid/{pk}/** - Get a list of employees by there unique id
 - **task-create/** - Create a new employee record.
 - **task-update/{pk}/** - Update an employee record by ID.
 - **task-delete/{pk}/** - Delete an employee record by ID.
